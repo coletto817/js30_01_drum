@@ -1,0 +1,19 @@
+html {
+  background: url("../images/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.key {
+  z-index: 10;
+  color: aliceblue;
+  border: solid 3px rgb(255, 255, 255);
+  width: 80px;
+  height: 80px;
+  margin: 30px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
