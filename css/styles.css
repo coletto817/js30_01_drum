@@ -6,6 +6,7 @@ html {
 .key {
   z-index: 10;
   color: aliceblue;
+  font-size: 2rem;
   border: solid 3px rgb(255, 255, 255);
   width: 80px;
   height: 80px;
@@ -13,7 +14,27 @@ html {
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
-  align-content: center;
   align-items: center;
   text-transform: uppercase;
+  transition: all 0.07s ease;
+  border-radius: 0.5rem;
+}
+
+.keys {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+}
+
+.sound {
+  color: rgb(212, 167, 69);
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+}
+
+.playing {
+  transform: scale(2);
+  border-color: rgb(233, 142, 7);
+  box-shadow: 0 0 1rem #ffc600;
 }
